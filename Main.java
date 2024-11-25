@@ -11,7 +11,7 @@ public class Main
 	{
 		Addition addition = (i, j) -> {
 			int y = 0;
-			for(int x = i; x < j; x++) { y+=x;}
+			for(int x = i; x <= j; x++) { y+=x; }
 			return y; };
 
 		System.out.println(addition.add(Integer.parseInt(args[0]), Integer.parseInt(args[1])));
